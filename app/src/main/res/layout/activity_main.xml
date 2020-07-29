@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="18SOEIT11005"
+            android:textColor="#0A0000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
+
+        <TextView
+            android:id="@+id/txtFirstName"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="First name :- Smit"
+            android:textColor="#110000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtHeader" />
+
+        <TextView
+            android:id="@+id/txtMiddleName"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="Middle Name :- Mukeshbhai"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtFirstName" />
+
+        <TextView
+            android:id="@+id/txtLastName"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="Last Name :- Dankhara"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtMiddleName" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="Email :- sdankhara303@rku.ac.in"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtLastName" />
+
+        <TextView
+            android:id="@+id/txtPassword"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="Password :- ******"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+        <TextView
+            android:id="@+id/txtGender"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="Gender :- Male"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="0dp"
+            style="@style/textViewStyle"
+            android:layout_height="wrap_content"
+            android:text="City :- Surat"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtGender" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
